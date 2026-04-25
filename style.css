@@ -50,9 +50,6 @@ h1,h4{
     border-radius: 40px;
     border: 10px solid white;
 }
-footer{
-    height: 140px;
-}
 #btn-top{
     position: fixed;
     right: 10px;
