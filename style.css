@@ -1,0 +1,60 @@
+body{
+    overflow-x: hidden;
+}
+.bg-light{
+    background-color: rgb(203, 203, 203) !important;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)) ,url(assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-navy-blue{
+    background-color: rgb(18, 25, 46);
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.47);
+}
+nav a{
+    color: white !important;
+}
+h1,h4{
+    text-transform: capitalize;
+}
+#p-req img{
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(208, 208, 208);
+    border-radius: 30%;
+}
+#p-req>div>div{
+    width: 150px;
+    background-color: white;
+    padding: 15px ;
+    padding-bottom: 0px;
+    border-radius: 20px;
+    border: 1px solid rgb(222, 222, 222);
+    transition: .5s;
+}
+#p-req>div>div:hover{
+    box-shadow: 2px 2px 1px 1px rgb(169, 169, 169);
+}
+#img1-overlap{
+    height: 300px !important;
+    transform: translate(50px,60px);
+    border-radius: 20px;
+}
+#img2-overlap{
+    height: 300px !important;
+    transform: translate(0px,-100px);
+    border-radius: 40px;
+    border: 10px solid white;
+}
+footer{
+    height: 140px;
+}
+#btn-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
