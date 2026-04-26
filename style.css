@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden !important;
-    margin: 0 !important;
 }
 .bg-light{
     background-color: rgb(203, 203, 203) !important;
@@ -41,13 +40,13 @@ h1,h4{
     box-shadow: 2px 2px 1px 1px rgb(169, 169, 169);
 }
 #img1-overlap{
-    height: 300px !important;
+    height: 200px !important;
     transform: translate(50px,60px);
     border-radius: 20px;
 }
 #img2-overlap{
-    height: 300px !important;
-    transform: translate(0px,-100px);
+    height: 230px !important;
+    transform: translate(0px,10px);
     border-radius: 40px;
     border: 10px solid white;
 }
